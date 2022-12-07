@@ -2,7 +2,7 @@
 ### I'm Ken Thore
 
 <picture>
-  <img alt="YOUR-ALT-TEXT" src="https://tenor.com/en-GB/view/8bit-dance-dancing-gif-4877113.gif">
+  <img alt="8-bit dancing man" src="https://tenor.com/en-GB/view/8bit-dance-dancing-gif-4877113.gif">
 </picture>
 
 - 🌱 I’m currently learning frontend development
@@ -23,7 +23,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" height="60px"/></span>
 
 ### Connect with me
-<a href="www.linkedin.com/in/ken-thore-bøeng-k12re"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" height="120px" /></a>
+<a href="https://www.linkedin.com/in/ken-thore-bøeng-k12re"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" height="120px" /></a>
 
 <!--
 **k12re/k12re** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

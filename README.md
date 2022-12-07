@@ -1,6 +1,10 @@
 ### Hi there 👋
 ### I'm Ken Thore
 
+<picture>
+  <img alt="YOUR-ALT-TEXT" src="https://tenor.com/en-GB/view/8bit-dance-dancing-gif-4877113.gif">
+</picture>
+
 - 🌱 I’m currently learning frontend development
 - 💻 I like computers
 - 🎮 Games

@@ -1,0 +1,67 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --red-text: #E55252;
+    --black-text: #000;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.circle {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: #000 8px solid;
+    margin: 60px;
+    right: 0px;
+}
+
+.header {
+    position: relative;
+    left: -150px;
+}
+
+.intro {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-light, .h2-extrabold, .h3-light {
+    position: absolute;
+}
+
+.h1-light {
+    /* left: 400px; */
+    /* top: 100px; */
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.h1-light, .h3-light {
+    font-weight: 300;
+}
+
+.h2-extrabold {
+    font-size: 120px;
+}
+
+.h2-extrabold-red {
+    color: var(--red-text);
+}
+
+.h3-light {
+    font-size: 30px;
+}

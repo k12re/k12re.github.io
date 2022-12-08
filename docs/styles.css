@@ -12,6 +12,7 @@
 
 body {
     margin: 0;
+    max-width: 1920px;
 }
 
 img {
@@ -30,22 +31,25 @@ img {
 
 .header {
     position: relative;
-    left: -150px;
+    height: 100%;
+    width: 100%;
+    left: -200px;
 }
 
 .intro {
     position: absolute;
-    display: flex;
-    flex-direction: row;
+    right: 12%;
+    top: 50%;
+    display: grid;
+    object-fit: contain;
+    /* flex-direction: row; */
 }
 
-.h1-light, .h2-extrabold, .h3-light {
-    position: absolute;
+.h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
+    margin: 0;
 }
 
 .h1-light {
-    /* left: 400px; */
-    /* top: 100px; */
     font-weight: 300;
     font-size: 60px;
 }
@@ -60,8 +64,15 @@ img {
 
 .h2-extrabold-red {
     color: var(--red-text);
+    position: relative;
+    top: -57px;
+    left: 157px;
 }
 
 .h3-light {
     font-size: 30px;
+    position: relative;
+    display: inline;
+    top: -88px;
+    right: -165px;
 }

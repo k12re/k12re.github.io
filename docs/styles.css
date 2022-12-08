@@ -20,7 +20,9 @@ img {
 }
 
 .circle {
-    position: absolute;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
     width: 46px;
     height: 46px;
     border-radius: 50%;
@@ -39,10 +41,17 @@ img {
 .intro {
     position: absolute;
     right: 12%;
-    top: 50%;
+    top: 470px;
     display: grid;
     object-fit: contain;
     /* flex-direction: row; */
+}
+
+.about {
+    position: relative;
+    top: -55px;
+    height: 100vh;
+    background-color: #FFE600;
 }
 
 .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
@@ -62,6 +71,17 @@ img {
     font-size: 120px;
 }
 
+.h2-light {
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.tech-stack .h2-light {
+    padding-top: 20px;
+}
+
 .h2-extrabold-red {
     color: var(--red-text);
     position: relative;
@@ -75,4 +95,43 @@ img {
     display: inline;
     top: -88px;
     right: -165px;
+}
+
+.about-me {
+    font-size: 30px;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.icons li {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.icon {
+    height: 110px;
+}
+
+.projects {
+    position: relative;
+    top: -55px;
+}
+
+.projects li {
+    list-style: none;
+    margin: 100px auto;
+    width: 60%;
+}
+
+li:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 16px #cecece );
 }

@@ -12,11 +12,115 @@
 
 body {
     margin: 0;
-    max-width: 1920px;
+    width: 100%;
 }
 
 img {
     width: 100%;
+}
+
+.header-image {
+    position: relative;
+    height: 100vh;
+}
+
+.header {
+    display: none;
+}
+
+.header-mobile {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.intro {
+    position: absolute;
+    right: 12%;
+    top: 10%;
+    display: grid;
+    object-fit: contain;
+    /* flex-direction: row; */
+}
+
+.about {
+    top: 100vh;
+}
+
+.h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
+    margin: 0;
+}
+
+.h1-light {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.h1-light, .h3-light {
+    font-weight: 300;
+}
+
+.h2-extrabold {
+    font-size: 3.5em;
+}
+
+.h2-light {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.tech-stack .h2-light {
+    padding-top: 20px;
+}
+
+.h2-extrabold-red {
+    color: var(--red-text);
+    position: relative;
+    top: -25px;
+    left: 33px;
+}
+
+.h3-light {
+    font-size: 30px;
+    position: relative;
+    display: inline;
+    top: -38px;
+    right: -35px;
+}
+
+.about {
+    position: relative;
+    top: -27px;
+    height: 100vh;
+    background-color: #FFE600;
+}
+
+.icons {
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.icons li {
+    padding-top: 2em;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.icon {
+    height: 55px;
+}
+
+@media screen and (min-width: 1000px ){
+  
+.header-mobile {
+   display: none;
 }
 
 .circle {
@@ -31,12 +135,18 @@ img {
     right: 0px;
 }
 
-.header {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    left: -200px;
+.header-image {
+    height: 100%;
 }
+
+.header {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: -50px;
+}
+
 
 .intro {
     position: absolute;
@@ -47,14 +157,15 @@ img {
     /* flex-direction: row; */
 }
 
-.about {
+
+/* .about {
     position: relative;
     top: -55px;
     height: 100vh;
     background-color: #FFE600;
-}
+} */
 
-.h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
+/* .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
     margin: 0;
 }
 
@@ -95,7 +206,7 @@ img {
     display: inline;
     top: -88px;
     right: -165px;
-}
+} */
 
 .about-me {
     font-size: 30px;
@@ -103,7 +214,7 @@ img {
     width: 50%;
 }
 
-.icons {
+/* .icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -118,7 +229,7 @@ img {
 
 .icon {
     height: 110px;
-}
+} */
 
 .projects {
     position: relative;
@@ -134,4 +245,11 @@ img {
 li:hover {
     cursor: pointer;
     filter: drop-shadow(0px 0px 12px #cecece );
+}
+
+footer {
+    background-color: #FFE600;
+    height: 100px;
+    width: 100%;
+}
 }

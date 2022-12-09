@@ -159,13 +159,16 @@ ul {
     /* flex-direction: row; */
 }
 
-
 .about {
     position: relative;
     top: -55px;
     height: 100vh;
     background-color: #FFE600;
-} */
+}
+
+.about-section, .tech-stack {
+    height: 50%;
+}
 
 .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
     margin: 0;
@@ -211,7 +214,7 @@ ul {
 }
 
 .about-me {
-    font-size: 30px;
+    font-size: 1.5em;
     margin: 0px auto;
     width: 50%;
 }

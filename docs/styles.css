@@ -46,6 +46,7 @@ img {
 
 .intro {
     position: absolute;
+    margin-left: 10px;
     right: 12%;
     top: 10%;
     display: grid;

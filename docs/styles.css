@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -17,9 +21,9 @@ body {
     scroll-snap-type: y mandatory; */
 }
 
-/* .scroll-section {
+.scroll-section {
     scroll-snap-align: start;
-} */
+}
 
 img {
     width: 100%;

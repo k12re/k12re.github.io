@@ -90,6 +90,9 @@ img {
     top: -38px;
     right: -35px;
 }
+ul {
+    padding-inline-start: 0px;
+}
 
 .about {
     position: relative;

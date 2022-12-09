@@ -13,14 +13,13 @@
 body {
     margin: 0;
     width: 100%;
-    object-position: 0%; 
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    /* scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; */
 }
 
-.scroll-section {
-    scroll-snap-align: center;
-}
+/* .scroll-section {
+    scroll-snap-align: start;
+} */
 
 img {
     width: 100%;

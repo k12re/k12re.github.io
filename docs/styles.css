@@ -158,14 +158,14 @@ img {
 }
 
 
-/* .about {
+.about {
     position: relative;
     top: -55px;
     height: 100vh;
     background-color: #FFE600;
 } */
 
-/* .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
+.h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
     margin: 0;
 }
 
@@ -206,7 +206,7 @@ img {
     display: inline;
     top: -88px;
     right: -165px;
-} */
+}
 
 .about-me {
     font-size: 30px;
@@ -214,7 +214,7 @@ img {
     width: 50%;
 }
 
-/* .icons {
+.icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -229,7 +229,7 @@ img {
 
 .icon {
     height: 110px;
-} */
+}
 
 .projects {
     position: relative;
@@ -249,7 +249,7 @@ li:hover {
 
 footer {
     background-color: #FFE600;
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 }

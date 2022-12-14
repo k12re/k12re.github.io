@@ -114,6 +114,7 @@ ul {
 
 .description {
     display: flex;
+    flex-direction: row;
     width: 100%;
     align-items: center;
 }
@@ -137,13 +138,25 @@ ul {
 }
 
 .icon {
-    height: 55px;
+    height: 65px;
+}
+
+.preview .icon {
+    height: 100%;
+    width: 100%;
 }
 
 footer {
+    display: flex;
     background-color: #FFE600;
     height: 120px;
     width: 100%;
+    align-items: center;
+}
+
+footer .icon {
+    height: 110px;
+    width: 110px;
 }
 
 @media screen and (min-width: 1000px ){
@@ -280,6 +293,11 @@ footer {
 
 .preview {
     height: 100vh;
+}
+
+.preview .icon {
+    height: 50%;
+    width: 50%;
 }
 
 .preview-img:hover {

@@ -121,6 +121,11 @@ ul {
     flex-direction: row;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
+}
+
+.description a {
+    text-align: end;
 }
 
 .description > * {

@@ -1,5 +1,5 @@
 const circle = document.querySelector(".circle");
-const bodyContainer = document.querySelector("body");
+const bodyContainer = document.querySelector("html");
 
 const scroll = () => {
     const slideHeight = bodyContainer.clientHeight;

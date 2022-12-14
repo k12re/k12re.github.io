@@ -257,7 +257,7 @@ footer .icon {
 
 .h1-light {
     font-weight: 300;
-    font-size: 60px;
+    font-size: 2rem;
 }
 
 .h1-light, .h3-light {
@@ -269,10 +269,10 @@ footer .icon {
 }
 
 .h2-light {
-    font-size: 60px;
+    font-size: 2rem;
     font-weight: 300;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 /* .tech-stack .h2-light {

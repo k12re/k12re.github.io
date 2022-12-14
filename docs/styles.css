@@ -99,12 +99,17 @@ img {
 }
 
 .h3-light {
-    font-size: 30px;
+    font-size: 1.2rem;
     position: relative;
     display: inline;
     top: -38px;
     right: -35px;
 }
+
+p {
+    font-size: 1.2rem;
+}
+
 ul {
     padding-inline-start: 0px;
 }
@@ -257,7 +262,7 @@ footer .icon {
 
 .h1-light {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .h1-light, .h3-light {

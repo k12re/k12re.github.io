@@ -58,6 +58,10 @@ img {
     top: 100vh;
 }
 
+.about-me {
+    padding: 0 26px;
+}
+
 .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
     margin: 0;
 }
@@ -148,6 +152,7 @@ ul {
 
 footer {
     display: flex;
+    flex-direction: row;
     background-color: #FFE600;
     height: 120px;
     width: 100%;

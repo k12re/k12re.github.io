@@ -69,7 +69,7 @@ img {
 
 .h1-light {
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .h1-light, .h3-light {
@@ -77,7 +77,7 @@ img {
 }
 
 .h2-extrabold {
-    font-size: 3.5em;
+    font-size: 3.5rem;
 }
 
 .h2-light {
@@ -155,8 +155,8 @@ ul {
 }
 
 .icons li {
-    padding-top: 2em;
-    font-size: 1em;
+    padding-top: 2rem;
+    font-size: 1rem;
     font-weight: 800;
 }
 
@@ -184,7 +184,7 @@ footer .icon {
     width: 110px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1050px) {
     .intro {
         right: 10%;
         top: 7%;
@@ -197,7 +197,7 @@ footer .icon {
 
 }
 
-@media screen and (min-width: 1001px ){
+@media screen and (min-width: 1051px ){
   
 .header-mobile {
    display: none;
@@ -309,7 +309,7 @@ footer .icon {
 }
 
 .icons li {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 800;
 }
 

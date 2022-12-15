@@ -129,7 +129,7 @@ ul {
 
 .tech-stack {
     position: relative;
-    bottom: 90px;
+    bottom: 30px;
 }
 
 .description {
@@ -272,6 +272,10 @@ footer .icon {
 
     .about-section {
         top: 20px;
+    }
+
+    .tech-stack {
+        bottom: 60px;
     }
 
     .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {

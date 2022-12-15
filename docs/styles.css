@@ -124,12 +124,12 @@ ul {
 
 .about-section {
     position: relative;
-    top: 0px;
+    top: -30px;
 }
 
 .tech-stack {
     position: relative;
-    bottom: 60px;
+    bottom: 90px;
 }
 
 .description {

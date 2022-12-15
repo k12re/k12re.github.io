@@ -150,7 +150,8 @@ ul {
 
 .icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     text-align: center;
@@ -200,13 +201,22 @@ footer .icon {
 
 @media screen and (orientation: landscape) and (min-width: 1051px ){
   
+    @keyframes hover {
+        from {
+            top: 4px;
+        }
+        to {
+            top: 10px
+        }
+    }
+
     .header-mobile {
         display: none;
     }
 
     .circle {
         cursor: pointer;
-        position: fixed;
+        position: absolute;
         z-index: 1000;
         width: 46px;
         height: 46px;
@@ -214,6 +224,22 @@ footer .icon {
         border: #000 8px solid;
         margin: 60px;
         right: 0px;
+    }
+
+    .circle:hover > .scroll {
+        transition: ease-in-out 0.2s;
+        opacity: 100%;
+    }
+
+    .scroll {
+        opacity: 0%;
+        font-weight: 800;
+        font-size: 2rem;
+        rotate: 90deg;
+        position: relative;
+        top: 10px;
+        left: 4px;
+        animation: 1s linear 1s infinite alternate hover;;
     }
 
     .header {

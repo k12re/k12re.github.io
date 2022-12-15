@@ -167,8 +167,8 @@ ul {
 }
 
 .preview .icon {
-    height: 50%;
-    width: 50%;
+    height: 30px;
+    width: 30px;;
 }
 
 footer {
@@ -182,8 +182,9 @@ footer {
 }
 
 footer .icon {
-    height: 110px;
-    width: 110px;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1050px) {
@@ -231,7 +232,6 @@ footer .icon {
         position: absolute;
         right: 14%;
         top: 43%;
-        display: grid;
         object-fit: contain;
         /* flex-direction: row; */
     }
@@ -244,7 +244,7 @@ footer .icon {
     }
 
     .about-section {
-        top: 60px;
+        top: 20px;
     }
 
     .h1-light, .h2-extrabold, .h2-extrabold-red, .h3-light {
@@ -326,8 +326,8 @@ footer .icon {
     }
 
     .preview .icon {
-        height: 50%;
-        width: 50%;
+        height: 30px;
+        width: 30px;
     }
 
     .preview-img:hover {

@@ -246,9 +246,10 @@ footer .icon {
     .header {
         display: block;
         position: relative;
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         left: -50px;
+        object-fit: cover;
     }
 
     .header-image {
@@ -257,7 +258,7 @@ footer .icon {
 
     .intro {
         position: absolute;
-        right: 14%;
+        right: 16%;
         top: 43%;
         object-fit: contain;
         /* flex-direction: row; */
